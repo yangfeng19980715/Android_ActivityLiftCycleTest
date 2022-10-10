@@ -1,0 +1,2 @@
+# Android_ActivityLiftCycleTest
+活动的声明周期
