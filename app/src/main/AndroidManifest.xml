@@ -15,8 +15,9 @@
 
         <activity
             android:name=".DialogActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Dialog">
+            android:launchMode="singleInstance"
+            android:exported="false">
+<!--            android:theme="@android:style/Theme.Dialog">-->
 
             <meta-data
                 android:name="android.app.lib_name"
@@ -25,7 +26,9 @@
 
         <activity
             android:name=".NormalActivity"
+            android:launchMode="singleTask"
             android:exported="false">
+            <!--            android:launchMode="singleTop"-->
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
