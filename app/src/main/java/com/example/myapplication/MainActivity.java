@@ -53,8 +53,10 @@ public class MainActivity extends BaseActivity {
         startDialogActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, DialogActivity.class);
-                startActivity(intent);
+                // Intent intent = new Intent(MainActivity.this, DialogActivity.class);
+                // startActivity(intent);
+
+                DialogActivity.actionStart(MainActivity.this, "data1", "data2");
             }
         });
     }
